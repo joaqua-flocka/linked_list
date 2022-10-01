@@ -143,7 +143,7 @@ puts list.size
 puts list.at(8).value
 puts list.contains?(2)
 #puts list.find(8)
-list.insert_at(34, 0)
+list.insert_at(34, 9)
 puts list.to_s
-list.remove_at(0)
+list.remove_at(9)
 puts list.to_s
